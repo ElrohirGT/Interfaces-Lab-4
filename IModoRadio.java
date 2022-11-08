@@ -4,6 +4,9 @@ import java.util.ArrayList;
  * IModoRadio
  */
 public interface IModoRadio {
+    public final float DELTA_EMISORA = 0.5f;
+    public final int MAX_EMISORAS_GUARDADAS = 50;
+
     /**
      * Cambia la banda a AM.
      */
